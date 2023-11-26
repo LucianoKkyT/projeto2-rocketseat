@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(360deg, rgba(10, 76, 60, 0.11) 60.08%, rgba(227, 255, 248, 0.50) 100%);
+  min-height: 100vh; /*Comando para que o body ocupe no minimo da altura da página*/
+}
+
+.page {
+  /*border: 1px solid red;*/
+  width: 1000px;
+  margin: 0 auto; /*0 em cima, lados auto e em baixo 0*/
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0; 
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+/* Os (:) chama-se Pseudo-class*/
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+  width: 490px;
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin: 40px 0; /*40px em cima e em baixo e 0px dos lados*/
+}
+
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #F9F9F9;
+
+  background: #69B99D;
+  border: none;
+  padding: 14px 32px 15px; /*14px top, 32px right e left, 15px botton */
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  cursor: pointer;  
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 83px;
+}
+
+footer a {
+  font-weight: bold; 
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  
+}
